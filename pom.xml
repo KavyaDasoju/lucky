@@ -209,6 +209,7 @@
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
+        
         <module>gameoflife-web</module>
     </modules>
     <profiles>
@@ -452,7 +453,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-checkstyle-plugin</artifactId>
-                        <version>2.9.1</version>
+                        <version>3.0.0</version>
                         <configuration>
                             <configLocation>gameoflife-build/checkstyle.xml</configLocation>
                         </configuration>
